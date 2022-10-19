@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		D165B17A28F5B55500C24522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165B17928F5B55500C24522 /* AppDelegate.swift */; };
 		D165B17C28F5B55500C24522 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165B17B28F5B55500C24522 /* SceneDelegate.swift */; };
-		D165B17E28F5B55500C24522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165B17D28F5B55500C24522 /* ViewController.swift */; };
-		D165B18128F5B55500C24522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D165B17F28F5B55500C24522 /* Main.storyboard */; };
 		D165B18328F5B55600C24522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D165B18228F5B55600C24522 /* Assets.xcassets */; };
 		D165B18628F5B55600C24522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D165B18428F5B55600C24522 /* LaunchScreen.storyboard */; };
 		D165B19128F5B55600C24522 /* MangaCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165B19028F5B55600C24522 /* MangaCheckTests.swift */; };
 		D165B19B28F5B55600C24522 /* MangaCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165B19A28F5B55600C24522 /* MangaCheckUITests.swift */; };
 		D165B19D28F5B55600C24522 /* MangaCheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165B19C28F5B55600C24522 /* MangaCheckUITestsLaunchTests.swift */; };
+		D199F86828FD982A000EA2A4 /* MangaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199F86728FD982A000EA2A4 /* MangaViewController.swift */; };
+		D199F86B28FD9998000EA2A4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199F86A28FD9998000EA2A4 /* API.swift */; };
+		D199F86E28FD99EA000EA2A4 /* ResultMangasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199F86D28FD99EA000EA2A4 /* ResultMangasModel.swift */; };
+		D199F87128FEC648000EA2A4 /* MangaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199F87028FEC648000EA2A4 /* MangaTableViewCell.swift */; };
+		D199F87628FED505000EA2A4 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D199F87528FED505000EA2A4 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		D165B17628F5B55500C24522 /* MangaCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D165B17928F5B55500C24522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D165B17B28F5B55500C24522 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D165B17D28F5B55500C24522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D165B18028F5B55500C24522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D165B18228F5B55600C24522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D165B18528F5B55600C24522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D165B18728F5B55600C24522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,10 @@
 		D165B19628F5B55600C24522 /* MangaCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangaCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D165B19A28F5B55600C24522 /* MangaCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaCheckUITests.swift; sourceTree = "<group>"; };
 		D165B19C28F5B55600C24522 /* MangaCheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaCheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D199F86728FD982A000EA2A4 /* MangaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaViewController.swift; sourceTree = "<group>"; };
+		D199F86A28FD9998000EA2A4 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D199F86D28FD99EA000EA2A4 /* ResultMangasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultMangasModel.swift; sourceTree = "<group>"; };
+		D199F87028FEC648000EA2A4 /* MangaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D199F87628FED505000EA2A4 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +85,10 @@
 		D165B16D28F5B55500C24522 = {
 			isa = PBXGroup;
 			children = (
+				D199F86F28FEC4F1000EA2A4 /* View */,
+				D199F86C28FD99CB000EA2A4 /* Model */,
+				D199F86928FD9942000EA2A4 /* Service */,
+				D199F86628FD9808000EA2A4 /* Controller */,
 				D165B17828F5B55500C24522 /* MangaCheck */,
 				D165B18F28F5B55600C24522 /* MangaCheckTests */,
 				D165B19928F5B55600C24522 /* MangaCheckUITests */,
@@ -101,8 +111,6 @@
 			children = (
 				D165B17928F5B55500C24522 /* AppDelegate.swift */,
 				D165B17B28F5B55500C24522 /* SceneDelegate.swift */,
-				D165B17D28F5B55500C24522 /* ViewController.swift */,
-				D165B17F28F5B55500C24522 /* Main.storyboard */,
 				D165B18228F5B55600C24522 /* Assets.xcassets */,
 				D165B18428F5B55600C24522 /* LaunchScreen.storyboard */,
 				D165B18728F5B55600C24522 /* Info.plist */,
@@ -127,6 +135,38 @@
 			path = MangaCheckUITests;
 			sourceTree = "<group>";
 		};
+		D199F86628FD9808000EA2A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D199F86728FD982A000EA2A4 /* MangaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D199F86928FD9942000EA2A4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D199F86A28FD9998000EA2A4 /* API.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D199F86C28FD99CB000EA2A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D199F86D28FD99EA000EA2A4 /* ResultMangasModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D199F86F28FEC4F1000EA2A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D199F87028FEC648000EA2A4 /* MangaTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +183,9 @@
 			dependencies = (
 			);
 			name = MangaCheck;
+			packageProductDependencies = (
+				D199F87528FED505000EA2A4 /* SDWebImage */,
+			);
 			productName = MangaCheck;
 			productReference = D165B17628F5B55500C24522 /* MangaCheck.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +258,9 @@
 				Base,
 			);
 			mainGroup = D165B16D28F5B55500C24522;
+			packageReferences = (
+				D199F87428FED505000EA2A4 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = D165B17728F5B55500C24522 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +279,6 @@
 			files = (
 				D165B18628F5B55600C24522 /* LaunchScreen.storyboard in Resources */,
 				D165B18328F5B55600C24522 /* Assets.xcassets in Resources */,
-				D165B18128F5B55500C24522 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D165B17E28F5B55500C24522 /* ViewController.swift in Sources */,
+				D199F87128FEC648000EA2A4 /* MangaTableViewCell.swift in Sources */,
 				D165B17A28F5B55500C24522 /* AppDelegate.swift in Sources */,
 				D165B17C28F5B55500C24522 /* SceneDelegate.swift in Sources */,
+				D199F86E28FD99EA000EA2A4 /* ResultMangasModel.swift in Sources */,
+				D199F86828FD982A000EA2A4 /* MangaViewController.swift in Sources */,
+				D199F86B28FD9998000EA2A4 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +345,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D165B17F28F5B55500C24522 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D165B18028F5B55500C24522 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D165B18428F5B55600C24522 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +482,6 @@
 				INFOPLIST_FILE = MangaCheck/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +509,6 @@
 				INFOPLIST_FILE = MangaCheck/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +640,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D199F87428FED505000EA2A4 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D199F87528FED505000EA2A4 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D199F87428FED505000EA2A4 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D165B16E28F5B55500C24522 /* Project object */;
 }
